@@ -16,20 +16,20 @@ nav{align-items:stretch}nav button{min-height:210px;display:flex;flex-direction:
 <p>I wish I could sit beside you and hold your hand while you read this. You are one of the most important people in my life, and I wanted you to hear this from me, with all my love.</p>
 <p class="signature">With all my love,<br>Didi ❤️</p><button class="close" onclick="closeLetter('didi')">Close this letter</button></article>
 <article id="baby" hidden tabindex="-1" aria-labelledby="baby-title"><h2 id="baby-title">My dearest Masi,</h2>
-<p>I’m coming… and I wanted to send you a little hello before we meet. ❤️</p>
-<p>For now, I’m very small and staying in Mumma’s tummy. It’s cosy here, although I have a few complaints about the menu. I’ve passed them on. Apparently, Mumma has noticed.</p>
-<p>I sent you these tiny socks because I’m not quite ready to put my feet in them yet. For now, they’ll have to do the visiting for me.</p>
-<p>There’s a little story behind why my hello took so long.</p>
-<p>Mumma and Baba waited eight years for this news. After so much hope and a difficult disappointment, they found themselves smiling and worrying at the same time. Mumma is still learning to say, “There’s a baby,” without feeling afraid.</p>
-<p>And she wanted so much to tell you.</p>
-<p>But when she tried to write to you, the words didn’t come easily. She loves you, and she wanted to be gentle. She kept waiting until she knew what to say, and then felt sad that she had waited.</p>
-<p>She’s sorry for being quiet, Masi. So she and Baba have helped me send this little letter.</p>
-<p>Well, Baba did the typing. I’m currently quite busy growing fingers.</p>
-<p>I don’t know much about the world yet, but I’ve heard I have a Masi in it. Someone who knew my Mumma long before she was my Mumma. Someone who can tell me what she was like when she was little—and whether she always liked being in charge.</p>
-<p>Please save those stories for me. Especially the ones Mumma might conveniently forget.</p>
-<p>One day, I hope these little feet will be resting in your lap while you tell me one. Perhaps I’ll hold your finger and fall asleep halfway through. Please don’t take it personally; I’ll be new at listening.</p>
-<p>Until then, there’s no hurry to write back. This box is simply a little hello, some sweetness, and a lot of love from our home to yours.</p>
-<p class="signature">With the tiniest hug,<br>Your little niece or nephew ❤️</p>
-<p>P.S. The sweets are for you. My present food arrangements are already taken care of.</p><button class="close" onclick="closeLetter('baby')">Close this letter</button></article><footer>With all our love ♡</footer></main><script>
+<p>I’m coming… and I wanted to say hello before we meet. ❤️</p>
+<p>For now, I’m very small and growing in Mumma’s tummy. It’s cosy here, although I have already submitted a few complaints about the menu. Mumma says I’m too small to be so demanding, but I’m not convinced.</p>
+<p>There’s a little story behind why it took me so long to introduce myself.</p>
+<p>Mumma and Baba waited eight years for this moment. They carried hope for a long time, and also the heartbreak of a difficult disappointment. So when I finally arrived, they felt happy, frightened and grateful all at once. Mumma is still learning to say, “There’s a baby,” without feeling afraid to believe it.</p>
+<p>She wanted you to be one of the first people to know.</p>
+<p>But when she tried to tell you, the words didn’t come easily. She knows your own journey has been difficult, and she was afraid that her happiness might bring you pain. She kept searching for the perfect way and the perfect moment, and then felt sad that she had remained quiet for so long.</p>
+<p>She is sorry, Masi.</p>
+<p>Please know that her silence was never because she loved you any less. It was because you matter so much to her, and she wanted to protect your heart while sharing something precious from hers.</p>
+<p>So today, I’m helping her say it simply:</p>
+<p>I’m here. I’m growing. And one day, I hope I’ll be in your arms.</p>
+<p>I don’t know much about the world yet, but I already know that I have a Masi who knew my Mumma long before she became my Mumma. I hear you have many stories about her childhood. Please keep the funniest ones ready—and perhaps keep a few safely hidden from Mumma.</p>
+<p>One day, I hope I can sit beside you, hold your finger and listen to those stories. I may fall asleep halfway through, but please don’t take it personally. I’ll be very new at listening.</p>
+<p>You don’t have to reply immediately. Take all the time you need and feel whatever you feel. This little message comes with no expectations—only love, a gentle hello and a promise that I am already looking forward to knowing you.</p>
+<p>Until we meet, please keep a little place for me in your heart.</p>
+<p class="signature">With the tiniest hug,<br>Your little niece or nephew ❤️</p><button class="close" onclick="closeLetter('baby')">Close this letter</button></article><footer>With all our love ♡</footer></main><script>
 function showLetter(id){for(const name of ['didi','baby']){document.getElementById(name).hidden=name!==id;document.getElementById(name+'-button').setAttribute('aria-expanded',String(name===id));}document.getElementById(id).focus({preventScroll:true});document.getElementById(id).scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}function closeLetter(id){document.getElementById(id).hidden=true;const button=document.getElementById(id+'-button');button.setAttribute('aria-expanded','false');button.focus();}
 </script></body></html>
